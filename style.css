@@ -1,0 +1,14 @@
+body{
+  background-color:blanchedalmond;
+}
+
+.button{
+  padding:30px;
+  background-color:lightskyblue;
+  margin:10px;
+}
+
+h3 span{
+  background-color:indianred;
+  padding:10px;
+}

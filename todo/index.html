@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>todo!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      body{
+        background-color:cornsilk;
+        margin-top:20px;
+      }
+      #todos{
+        margin-top:20px;
+      }
+      #clear{
+        background-color:red;
+      }
+      #clear-struck{
+        background-color:yellow;
+      }
+      #todo-text{
+        width:75%;
+        margin:auto;
+        display:block;
+      }
+      .button-row{
+        margin-top:10px;
+        text-align:center;
+      }
+      #clear,#clear-struck{
+        height:50px;
+        width:150px;
+      }
+      input{
+        text-align:center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class = "row">
+        <input id="todo-text" autocomplete=off type="text"></input>
+        <button id = "todo-submit" hidden class="col-xs-2" type=button>Submit</button>
+      </div>
+      <div class="button-row">
+        <button id = "clear" type="button">Reset</button>
+        <button id="clear-struck"type="button">Remove Completed</button>
+      </div>
+      <div class="button-row">
+        <div id="todos"></div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
